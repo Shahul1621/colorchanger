@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+#colorButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid black;
+    outline: none;
+    transition: transform 0.2s, color 0.3s ease, background-color 0.3s ease;
+    background-color: white;
+    color: black;
+}
+
+#colorButton:hover {
+    transform: scale(1.1);
+}
+.container{
+    background-color: black;
+    padding: 30px;
+}
+.body{
+    padding: 20px;
+    border: 2px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
